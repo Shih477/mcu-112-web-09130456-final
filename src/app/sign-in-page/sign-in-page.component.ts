@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
-  selector: 'app-nav-bar',
+  selector: 'app-sign-in-page',
   standalone: true,
   imports: [RouterLink, RouterLinkActive],
-  templateUrl: './nav-bar.component.html',
-  styleUrl: './nav-bar.component.css',
+  templateUrl: './sign-in-page.component.html',
+  styleUrl: './sign-in-page.component.css',
 })
-export class NavBarComponent {}
+export class SignInPageComponent {}
