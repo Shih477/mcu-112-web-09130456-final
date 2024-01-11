@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-home-page',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive],
+  imports: [HeaderComponent],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css',
 })
